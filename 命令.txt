@@ -1,0 +1,86 @@
+﻿1  git config --global user.name "lighthappy"
+                 //建立用户名
+2  git config --global user.email "914776878@qq.com"
+          //建立邮件
+3  echo "# lighthappy.github.io" >> README.md
+                //复制
+4  git init
+    
+5  git add README.md
+   
+6  git commit -m "first commit"
+    
+7  git remote add origin https://github.com/lighthappy/lighthappy.github.io.git
+    
+8  git push -u origin master
+    
+9  git pull origin master
+   //下载网页文档
+10  git status
+            //查看
+11  git add .
+           // 添加
+12  git status
+   
+13  git commit -m 'write'
+     
+14  git add .
+              //修改并上传
+15  git status
+   
+16  git commit -m 'write'
+   
+17  git push -u origin master
+   
+18  touch index.html
+     // 新建
+19  git add .
+   
+20  git commit -m 'chinese'
+   
+21  git push -u origin master
+   
+22  git add .
+   
+23  git commit -m 'chinese'
+   
+24  git push -u origin master
+   
+25  git add .
+   
+26  git commit -m 'chinese'
+   
+27  git push -u origin master
+   
+28  git add .
+   
+29  git commit -m 'china'
+   
+30  git push -u origin master
+   
+31  git add .
+   
+32  git commint -m "china"
+   
+33  git commit -m 'china'
+   
+34  git push -u origin master
+   
+35  git add .
+   
+36  git commit -m 'china'
+   
+37  git push -u origin master
+   
+38  git add .
+   
+39  git commit -m 'china'
+   
+40  git push -u origin master
+   
+41  history > 命令.txt
+
+42 中文 改文件格式  UTF-8
+   代码中加命令 <meta http-equiv="Count-type" content="text/html;charset=utf-8"/>
+   在coifig 中加入encoding：UTF-8 不加空行
+  
