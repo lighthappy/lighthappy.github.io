@@ -1,4 +1,4 @@
-.navbar-default{
+﻿.navbar-default{
   min-height: 60px;
   margin-bottom: 0; 
   padding-top: 5px;
@@ -126,7 +126,7 @@
 }
 
 header {
-  background: url(/system/comfy/cms/files/files/000/000/005/original/header-bg.jpg) center top no-repeat;
+  background: url(/header-bg.jpg) center top no-repeat;
   -webkit-background-size: cover;
    -moz-background-size: cover;
      -o-background-size: cover;
